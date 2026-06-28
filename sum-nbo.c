@@ -41,8 +41,7 @@ int main(int argc, char *argv[])
     uint32_t sum = 0;
 
     if (argc < 2) {
-        printf("syntax : sum-nbo <file1> [<file2>...]\n");
-        printf("sample : sum-nbo a.bin b.bin c.bin\n");
+        printf("usage : sum-nbo <file1> [<file2>...]\n");
         return 1;
     }
 
